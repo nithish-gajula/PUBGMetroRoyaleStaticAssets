@@ -12,7 +12,7 @@
     "fileCabinet": { "icon": "SpawnIcons/file_cabinet.png", "size": 20 },
     "fileCabinetSmall": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 },
     "passwordDoor": { "icon": "SpawnIcons/password_door.png", "size": 20 },
-    "zombieLab": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 }
+    "zombieLab": { "icon": "SpawnIcons/zombie_lab.png", "size": 22 }
   },
   "markers": [
     { "id": "squad_1", "name": "Squad Spawn #1", "description": "Near tunnel entrance, high contest area.", "type": "squadSpawn", "x": 100, "y": 200, "img1": null, "img2": null },
@@ -22,8 +22,8 @@
     { "id": "zombie_1", "name": "zombie #1", "description": "Zombie Lab #1", "type": "zombieLab", "x": 460, "y": 520, "img1": null, "img2": null },
 
 
-    { "id": "password_1", "name": "Black Door #A", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 1010, "y": 1040, "img1": "AreaViews/PasswordDoors/door_3.jpg", "img2": "AreaViews/PasswordDoors/door_3.jpg" },
-    { "id": "password_2", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/door_4.jpg", "img2": "AreaViews/PasswordDoors/door_4.jpg" },
+    { "id": "password_1", "name": "Black Door #A", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 1010, "y": 1040, "img1": "AreaViews/PasswordDoors/3_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/3_password_door.jpg" },
+    { "id": "password_2", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/4_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/4_password_door.jpg" },
 
     { "id": "supply_1",  "name": "supply #1",  "description": "Supply Crate #1",  "type": "supplyCrate", "x": 200, "y": 720, "img1": null, "img2": null },
     { "id": "supply_2",  "name": "supply #2",  "description": "Supply Crate #2",  "type": "supplyCrate", "x": 270, "y": 630, "img1": null, "img2": null },

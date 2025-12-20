@@ -12,7 +12,7 @@
     "fileCabinet": { "icon": "SpawnIcons/file_cabinet.png", "size": 22 },
     "fileCabinetSmall": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 },
     "passwordDoor": { "icon": "SpawnIcons/password_door.png", "size": 25 },
-    "zombieLab": { "icon": "SpawnIcons/password_door.png", "size": 30 }
+    "zombieLab": { "icon": "SpawnIcons/zombie_lab.png", "size": 22 }
   },
   "markers": [
     { "id": "squad_1", "name": "Squad Spawn #1", "description": "Close to radiation zone edge.", "type": "squadSpawn", "x": 635, "y": 180, "img1": null, "img2": null },
@@ -74,13 +74,16 @@
     { "id": "snow_19", "name": "Snow Crate #19", "description": "Located inside a room outside the buildings\nGuarded by a bot", "type": "snowCrate", "x": 700, "y": 920, "img1": "AreaViews/SnowCrates/19_snow_crate_outside.jpg", "img2": "AreaViews/SnowCrates/19_snow_crate.jpg" },
     { "id": "snow_20", "name": "Snow Crate #20", "description": "Located outside a warehouse gate", "type": "snowCrate", "x": 480, "y": 570, "img1": "AreaViews/SnowCrates/20_snow_crate_outside.jpg", "img2": "AreaViews/SnowCrates/20_snow_crate.jpg" },
 
-    { "id": "password_1", "name": "Yellow Door", "description": "Located at the Armory Outpost, this locked room requires a Yellow Password Letter to enter. Once inside, you can expect moderate-tier loot.", "type": "passwordDoor", "x": 670, "y": 820, "img1": "AreaViews/PasswordDoors/door_1.jpg", "img2": "AreaViews/PasswordDoors/door_1.jpg" },
-    { "id": "password_2", "name": "Red Door", "description": "Located at the Support Center, this locked room requires a Red Password Letter to enter. Be prepared to face the Steel Front Boss guarding the entrance. Once inside, you can expect moderate-tier loot.", "type": "passwordDoor", "x": 1335, "y": 890, "img1": "AreaViews/PasswordDoors/door_2.jpg", "img2": "AreaViews/PasswordDoors/door_2.jpg" },
-    { "id": "password_3", "name": "Black Door #A", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 1010, "y": 1040, "img1": "AreaViews/PasswordDoors/door_3.jpg", "img2": "AreaViews/PasswordDoors/door_3.jpg" },
-    { "id": "password_4", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/door_4.jpg", "img2": "AreaViews/PasswordDoors/door_4.jpg" },
+    { "id": "password_1", "name": "Yellow Door", "description": "Located at the Armory Outpost, this locked room requires a Yellow Password Letter to enter. Once inside, you can expect moderate-tier loot.", "type": "passwordDoor", "x": 670, "y": 820, "img1": "AreaViews/PasswordDoors/1_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/1_password_door.jpg" },
+    { "id": "password_2", "name": "Red Door", "description": "Located at the Support Center, this locked room requires a Red Password Letter to enter. Be prepared to face the Steel Front Boss guarding the entrance. Once inside, you can expect moderate-tier loot.", "type": "passwordDoor", "x": 1335, "y": 890, "img1": "AreaViews/PasswordDoors/2_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/2_password_door.jpg" },
+    { "id": "password_3", "name": "Black Door #A", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 1010, "y": 1040, "img1": "AreaViews/PasswordDoors/3_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/3_password_door.jpg" },
+    { "id": "password_4", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/4_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/4_password_door.jpg" },
 
 
-    { "id": "zombie_1", "name": "zombie #1", "description": "Zombie Lab #1", "type": "zombieLab", "x": 460, "y": 520, "img1": null, "img2": null },
+    { "id": "zombie_1", "name": "zombie #1", "description": "Zombie Lab #1", "type": "zombieLab", "x": 460, "y": 520, "img1": "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/1_zombie_lab.jpg" },
+    { "id": "zombie_2", "name": "zombie #2", "description": "Zombie Lab #2", "type": "zombieLab", "x": 560, "y": 720, "img1": "AreaViews/ZombieLabs/2_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/2_zombie_lab.jpg" },
+
+
     { "id": "supply_1", "name": "supply #1", "description": "Supply Crate #1", "type": "supplyCrate", "x": 400, "y": 500, "img1": null, "img2": null },
     { "id": "weapon_1", "name": "Weapon #1", "description": "Weapon Crate #1", "type": "weaponCrate", "x": 700, "y": 300, "img1": null, "img2": null },
     { "id": "file_1", "name": "File #1", "description": "File Cabinet #1", "type": "fileCabinet", "x": 800, "y": 300, "img1": null, "img2": null },

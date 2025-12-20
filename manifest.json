@@ -10,6 +10,7 @@
     "SpawnIcons/file_cabinet_small.png",
     "SpawnIcons/snow_crate.png",
     "SpawnIcons/metro_icon.png",
+    "SpawnIcons/password_door.png",
     "Maps/MiniMaps/old_blockade_zone_basic.jpg",
     "Maps/MiniMaps/arctic_base_basic.jpg",
     "Maps/MiniMaps/misty_port_basic.jpg",
@@ -70,20 +71,20 @@
       "AreaViews/SnowCrates/8_snow_crate_outside.jpg"
     ],
     "PasswordDoors": [
-      "AreaViews/PasswordDoors/door_1.jpg",
-      "AreaViews/PasswordDoors/door_2.jpg",
-      "AreaViews/PasswordDoors/door_3.jpg",
-      "AreaViews/PasswordDoors/door_4.jpg",
-      "AreaViews/PasswordDoors/door_5.jpg",
-      "AreaViews/PasswordDoors/door_6.jpg"
+      "AreaViews/PasswordDoors/1_password_door.jpg",
+      "AreaViews/PasswordDoors/1_password_door_outside.jpg",
+      "AreaViews/PasswordDoors/2_password_door.jpg",
+      "AreaViews/PasswordDoors/2_password_door_outside.jpg",
+      "AreaViews/PasswordDoors/3_password_door.jpg",
+      "AreaViews/PasswordDoors/3_password_door_outside.jpg",
+      "AreaViews/PasswordDoors/4_password_door.jpg",
+      "AreaViews/PasswordDoors/4_password_door_outside.jpg"
     ],
     "ZombieLabs": [
-      "AreaViews/ZombieLabs/lab_1.jpg",
-      "AreaViews/ZombieLabs/lab_2.jpg",
-      "AreaViews/ZombieLabs/lab_3.jpg",
-      "AreaViews/ZombieLabs/lab_4.jpg",
-      "AreaViews/ZombieLabs/lab_5.jpg",
-      "AreaViews/ZombieLabs/lab_6.jpg"
+      "AreaViews/ZombieLabs/1_zombie_lab.jpg",
+      "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg",
+      "AreaViews/ZombieLabs/2_zombie_lab.jpg",
+      "AreaViews/ZombieLabs/2_zombie_lab_outside.jpg"
     ]
   }
 }
