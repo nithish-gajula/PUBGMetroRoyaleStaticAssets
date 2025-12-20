@@ -1,23 +1,29 @@
 {
   "mapId": "arctic_base_radiation",
-  "image": "assets/maps/arctic_base_radiation.jpg",
+  "image": "Maps/LargeMaps/arctic_base_radiation.jpg",
   "origWidth": 1000,
   "origHeight": 1000,
   "icons": {
-    "snowCrate": { "icon": "assets/images/snow_crate.png", "size": 28 },
+    "snowCrate": { "icon": "SpawnIcons/snow_crate.png", "size": 28 },
     "soloSpawn": { "icon": null, "size": 20 },
     "squadSpawn": { "icon": null, "size": 22 },
-    "supplyCrate": { "icon": "assets/images/supply_crate.png", "size": 10 },
-    "weaponCrate": { "icon": "assets/images/weapon_crate.png", "size": 20 },
-    "fileCabinet": { "icon": "assets/images/file_cabinet.png", "size": 20 },
-    "fileCabinetSmall": { "icon": "assets/images/file_cabinet_small.png", "size": 18 }
+    "supplyCrate": { "icon": "SpawnIcons/supply_crate.png", "size": 10 },
+    "weaponCrate": { "icon": "SpawnIcons/weapon_crate.png", "size": 20 },
+    "fileCabinet": { "icon": "SpawnIcons/file_cabinet.png", "size": 20 },
+    "fileCabinetSmall": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 },
+    "passwordDoor": { "icon": "SpawnIcons/password_door.png", "size": 20 },
+    "zombieLab": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 }
   },
   "markers": [
     { "id": "squad_1", "name": "Squad Spawn #1", "description": "Near tunnel entrance, high contest area.", "type": "squadSpawn", "x": 100, "y": 200, "img1": null, "img2": null },
     { "id": "solo_1", "name": "Solo Spawn #1", "description": "Safer solo spawn, moderate loot.", "type": "soloSpawn", "x": 200, "y": 300, "img1": null, "img2": null },
     { "id": "snow_1", "name": "Snow Crate #1", "description": "Snow Crate #1", "type": "snowCrate", "x": 650, "y": 300, "img1": null, "img2": null },
     { "id": "file_small_1", "name": "File small #1", "description": "File Cabinet Small #1", "type": "fileCabinetSmall", "x": 900, "y": 200, "img1": null, "img2": null },
+    { "id": "zombie_1", "name": "zombie #1", "description": "Zombie Lab #1", "type": "zombieLab", "x": 460, "y": 520, "img1": null, "img2": null },
 
+
+    { "id": "password_1", "name": "Black Door #A", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 1010, "y": 1040, "img1": "AreaViews/PasswordDoors/door_3.jpg", "img2": "AreaViews/PasswordDoors/door_3.jpg" },
+    { "id": "password_2", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/door_4.jpg", "img2": "AreaViews/PasswordDoors/door_4.jpg" },
 
     { "id": "supply_1",  "name": "supply #1",  "description": "Supply Crate #1",  "type": "supplyCrate", "x": 200, "y": 720, "img1": null, "img2": null },
     { "id": "supply_2",  "name": "supply #2",  "description": "Supply Crate #2",  "type": "supplyCrate", "x": 270, "y": 630, "img1": null, "img2": null },
