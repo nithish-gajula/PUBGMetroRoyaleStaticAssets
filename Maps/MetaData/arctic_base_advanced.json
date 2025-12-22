@@ -80,8 +80,8 @@
     { "id": "password_4", "name": "Black Door #B", "description": "Located within the Radiation Zone, this locked room requires a Black Password Letter to enter. Once inside, You can get guaranteed high-tier loot.\nNote: only one black door (either #A or #B) can be opened randomly per match.", "type": "passwordDoor", "x": 860, "y": 890, "img1": "AreaViews/PasswordDoors/4_password_door_outside.jpg", "img2": "AreaViews/PasswordDoors/4_password_door.jpg" },
 
 
-    { "id": "zombie_1", "name": "zombie #1", "description": "Zombie Lab #1", "type": "zombieLab", "x": 210, "y": 920, "img1": "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/1_zombie_lab.jpg" },
-    { "id": "zombie_2", "name": "zombie #2", "description": "Zombie Lab #2", "type": "zombieLab", "x": 1580, "y": 1020, "img1": "AreaViews/ZombieLabs/2_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/2_zombie_lab.jpg" },
+    { "id": "zombie_1", "name": "zombie #1", "description": "Requires Any Stable Genetic Code to produce a Zombie", "type": "zombieLab", "x": 210, "y": 920, "img1": "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/1_zombie_lab.jpg" },
+    { "id": "zombie_2", "name": "zombie #2", "description": "Requires Any Stable Genetic Code to produce a Zombie", "type": "zombieLab", "x": 1580, "y": 1020, "img1": "AreaViews/ZombieLabs/2_zombie_lab_outside.jpg", "img2": "AreaViews/ZombieLabs/2_zombie_lab.jpg" },
 
 
     { "id": "supply_1", "name": "supply #1", "description": "Supply Crate #1", "type": "supplyCrate", "x": 400, "y": 500, "img1": null, "img2": null },
