@@ -12,6 +12,7 @@
     "SpawnIcons/metro_icon.png",
     "SpawnIcons/password_door.png",
     "SpawnIcons/zombie_lab.png",
+    "SpawnIcons/abcd_testing.png",
     "Maps/MiniMaps/old_blockade_zone_basic.jpg",
     "Maps/MiniMaps/arctic_base_basic.jpg",
     "Maps/MiniMaps/misty_port_basic.jpg",
@@ -25,7 +26,8 @@
     "Maps/LargeMaps/arctic_base_advanced.jpg",
     "Maps/LargeMaps/arctic_base_radiation.jpg",
     "Maps/MetaData/arctic_base_radiation.json",
-    "Maps/MetaData/arctic_base_advanced.json"
+    "Maps/MetaData/arctic_base_advanced.json",
+    "Maps/MetaData/abcd_testing.json"
   ],
 
   "optional": {
