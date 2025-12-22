@@ -1,4 +1,6 @@
 {
+  "version": 2,
+
   "base_url": "https://raw.githubusercontent.com/nithish-gajula/PUBGMetroRoyaleStaticAssets/master",
 
   "mandatory": [
@@ -29,6 +31,7 @@
   ],
 
   "optional": {
+
     "SnowCrates": [
       "AreaViews/SnowCrates/19_snow_crate.jpg",
       "AreaViews/SnowCrates/18_snow_crate.jpg",
@@ -71,6 +74,7 @@
       "AreaViews/SnowCrates/14_snow_crate.jpg",
       "AreaViews/SnowCrates/8_snow_crate_outside.jpg"
     ],
+
     "PasswordDoors": [
       "AreaViews/PasswordDoors/1_password_door.jpg",
       "AreaViews/PasswordDoors/1_password_door_outside.jpg",
@@ -81,6 +85,7 @@
       "AreaViews/PasswordDoors/4_password_door.jpg",
       "AreaViews/PasswordDoors/4_password_door_outside.jpg"
     ],
+
     "ZombieLabs": [
       "AreaViews/ZombieLabs/1_zombie_lab.jpg",
       "AreaViews/ZombieLabs/1_zombie_lab_outside.jpg",
