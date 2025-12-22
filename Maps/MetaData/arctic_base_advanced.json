@@ -4,15 +4,15 @@
   "origWidth": 2000,
   "origHeight": 2000,
   "icons": {
-    "snowCrate": { "icon": "SpawnIcons/snow_crate.png", "size": 24 },
-    "soloSpawn": { "icon": null, "size": 20 },
-    "squadSpawn": { "icon": null, "size": 20 },
-    "supplyCrate": { "icon": "SpawnIcons/supply_crate.png", "size": 30 },
-    "weaponCrate": { "icon": "SpawnIcons/weapon_crate.png", "size": 30 },
-    "fileCabinet": { "icon": "SpawnIcons/file_cabinet.png", "size": 22 },
-    "fileCabinetSmall": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 },
-    "passwordDoor": { "icon": "SpawnIcons/password_door.png", "size": 18 },
-    "zombieLab": { "icon": "SpawnIcons/zombie_lab.png", "size": 18 }
+    "snowCrate": { "icon": "SpawnIcons/snow_crate.png", "size": 24, "minSize":15, "maxSize":30, "defaultSize":24 },
+    "soloSpawn": { "icon": null, "size": 20 , "minSize":15, "maxSize":30, "defaultSize":20},
+    "squadSpawn": { "icon": null, "size": 20, "minSize":15, "maxSize":30, "defaultSize":20 },
+    "supplyCrate": { "icon": "SpawnIcons/supply_crate.png", "size": 15 , "minSize":10, "maxSize":25, "defaultSize":15},
+    "weaponCrate": { "icon": "SpawnIcons/weapon_crate.png", "size": 20 , "minSize":15, "maxSize":30, "defaultSize":20},
+    "fileCabinet": { "icon": "SpawnIcons/file_cabinet.png", "size": 20 , "minSize":15, "maxSize":30, "defaultSize":20},
+    "fileCabinetSmall": { "icon": "SpawnIcons/file_cabinet_small.png", "size": 18 , "minSize":10, "maxSize":20, "defaultSize":18},
+    "passwordDoor": { "icon": "SpawnIcons/password_door.png", "size": 20 , "minSize":15, "maxSize":30, "defaultSize":20},
+    "zombieLab": { "icon": "SpawnIcons/zombie_lab.png", "size": 18 , "minSize":15, "maxSize":30, "defaultSize":18}
   },
   "markers": [
     { "id": "squad_1", "name": "Squad Spawn #1", "description": "Close to radiation zone edge.", "type": "squadSpawn", "x": 635, "y": 180, "img1": null, "img2": null },
